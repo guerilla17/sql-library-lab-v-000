@@ -22,7 +22,7 @@ def select_name_and_motto_of_char_with_longest_motto
 end	
 
 
-def select_value_and_count_of_most_prolific_species	def select_value_and_count_of_most_prolific_species
+def select_value_and_count_of_most_prolific_species	
 <<-SQL
     SELECT species, COUNT(*) 
     FROM characters 
